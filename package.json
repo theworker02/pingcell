@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/pingcell",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Ping encode/decode helpers for cell payloads in pipelines.",
+  "bin": {
+    "pingcell": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/pingcell.git"
+  },
+  "homepage": "https://theworker02.github.io/pingcell/",
+  "keywords": [
+    "ping",
+    "cell",
+    "encode",
+    "cli",
+    "toolkit"
+  ]
+}
